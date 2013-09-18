@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.WebForms", "PaganaSoft.WebForms\PaganaSoft.WebForms.csproj", "{6D9CBD0B-D751-463F-A373-81D0264E1FB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.Northwind.Data", "PaganaSoft.Northwind.Data\PaganaSoft.Northwind.Data.csproj", "{6DEF0E69-494B-4850-A318-D574E6FADCC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.Mvc", "PaganaSoft.Mvc\PaganaSoft.Mvc.csproj", "{5520EFE1-E956-44B5-97B4-C769DD05F89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.WebPages", "PaganaSoft.WebPages\PaganaSoft.WebPages.csproj", "{B4254E9C-C24C-4219-83BF-24DFCC77D61E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,18 @@ Global
 		{6D9CBD0B-D751-463F-A373-81D0264E1FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D9CBD0B-D751-463F-A373-81D0264E1FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D9CBD0B-D751-463F-A373-81D0264E1FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEF0E69-494B-4850-A318-D574E6FADCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEF0E69-494B-4850-A318-D574E6FADCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEF0E69-494B-4850-A318-D574E6FADCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEF0E69-494B-4850-A318-D574E6FADCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5520EFE1-E956-44B5-97B4-C769DD05F89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5520EFE1-E956-44B5-97B4-C769DD05F89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5520EFE1-E956-44B5-97B4-C769DD05F89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5520EFE1-E956-44B5-97B4-C769DD05F89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
