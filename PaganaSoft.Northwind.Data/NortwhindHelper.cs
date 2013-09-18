@@ -24,5 +24,26 @@ namespace PaganaSoft.Northwind.Data
             }
         }
 
+        
+        /// <summary>
+        /// Funcion que regresa un IEnumerable de dynamic
+        /// </summary>
+        /// <returns>IIEnumeerable<dynamic></returns>
+        public dynamic GetProductsGrouped()
+        {
+            using (var db = new NorthwindContext())
+            {
+                
+                    return db.Products
+                    .GroupBy(p => p.CategoryID)
+                    .Select(s => new { Category = s.Key, Group = s });
+            }
+        }
+
+        private void test()
+        {
+            var res = GetProductsGrouped();
+            int IDCat = (int)res.Category;
+        }
     }
 }

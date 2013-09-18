@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.Mvc", "PaganaSof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.WebPages", "PaganaSoft.WebPages\PaganaSoft.WebPages.csproj", "{B4254E9C-C24C-4219-83BF-24DFCC77D61E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paganasoft.UnitTest", "Paganasoft.UnitTest\Paganasoft.UnitTest.csproj", "{C92298D2-4EC3-47FA-85E6-DA00942B4D5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4254E9C-C24C-4219-83BF-24DFCC77D61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92298D2-4EC3-47FA-85E6-DA00942B4D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92298D2-4EC3-47FA-85E6-DA00942B4D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92298D2-4EC3-47FA-85E6-DA00942B4D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92298D2-4EC3-47FA-85E6-DA00942B4D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
