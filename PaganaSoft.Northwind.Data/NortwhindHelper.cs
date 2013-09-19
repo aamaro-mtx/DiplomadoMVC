@@ -24,7 +24,21 @@ namespace PaganaSoft.Northwind.Data
             }
         }
 
-        
+        public List<Category> GetCategories()
+        {
+            using (var db= new NorthwindContext())
+            {
+                return db.Categories.Include("Products").ToList();
+            }
+        }
+        public List<Product> GetProducts()
+        {
+            using (var db = new NorthwindContext())
+            {
+                return db.Products.ToList();
+            }
+        }
+
         /// <summary>
         /// Funcion que regresa un IEnumerable de dynamic
         /// </summary>

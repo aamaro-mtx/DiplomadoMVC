@@ -70,6 +70,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PaganaSoft.Northwind.Data\PaganaSoft.Northwind.Data.csproj">
+      <Project>{6def0e69-494b-4850-a318-d574e6fadcc4}</Project>
+      <Name>PaganaSoft.Northwind.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

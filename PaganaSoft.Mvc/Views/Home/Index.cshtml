@@ -1,0 +1,21 @@
+﻿@model IEnumerable<PaganaSoft.Northwind.Data.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Categorias de Northwind</h2>
+
+
+@foreach (var c in Model)
+{
+    <h2>@Html.DisplayFor(modelItem => c.CategoryName)</h2>
+    <p>
+        @foreach (var p in c.Products)
+        {
+            @p.ProductName
+            <br />
+        }
+    </p>
+}
+
