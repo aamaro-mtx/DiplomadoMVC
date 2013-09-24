@@ -16,6 +16,11 @@ namespace PaganaSoft.Northwind.Data
             }
         }
 
+        /// <summary>
+        /// Obtiene el producto con un ID especifico.
+        /// </summary>
+        /// <param name="ProdId"></param>
+        /// <returns></returns>
         public Product GetProductById(int ProdId)
         {
             using (var db = new NorthwindContext())
@@ -24,6 +29,10 @@ namespace PaganaSoft.Northwind.Data
             }
         }
 
+        /// <summary>
+        /// Obtiene un loistado de las categorias incluyendo sus productos.
+        /// </summary>
+        /// <returns></returns>
         public List<Category> GetCategories()
         {
             using (var db= new NorthwindContext())

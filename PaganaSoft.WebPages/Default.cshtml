@@ -1,3 +1,37 @@
 ﻿@{
-    
+    //using (System.Web.WebPages.Html.HtmlHelper)
+
+    var helper = new PaganaSoft.Northwind.Data.NorthwindHelper();
+    var categories = helper.GetCategories();
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background: #e1efbb url('img_tree.png') no-repeat right top;
+            margin-right: 200px;
+            align-content: center;
+        }
+    </style>
+    <title>Listando a NorthWind Version MVC</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+</head>
+<body>
+    <h2>Listado de Categorias de Northwind usando Web Pages</h2>
+
+
+    @foreach (var c in categories)
+    {
+        <h2>@c.CategoryName</h2>
+
+        foreach (var p in c.Products)
+        {
+            <ul>
+                <li>@p.ProductName</li>
+            </ul>
+        }
+       <br />
+    }
+</body>
+</html>
