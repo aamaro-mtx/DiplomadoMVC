@@ -28,7 +28,7 @@ namespace PaganaSoft.Northwind.Data
         {
             using (var db= new NorthwindContext())
             {
-                return db.Categories.Include("Products").ToList();
+               return db.Categories.Include("Products").ToList();
             }
         }
         public List<Product> GetProducts()
@@ -42,16 +42,17 @@ namespace PaganaSoft.Northwind.Data
         /// <summary>
         /// Funcion que regresa un IEnumerable de dynamic
         /// </summary>
-        /// <returns>IIEnumeerable<dynamic></returns>
+        /// <returns><dynamic></returns>
         public dynamic GetProductsGrouped()
         {
-            using (var db = new NorthwindContext())
-            {
-                
-                    return db.Products
+            //using (var db = new NorthwindContext())
+            //{
+
+            var db = new NorthwindContext();
+                return db.Products
                     .GroupBy(p => p.CategoryID)
-                    .Select(s => new { Category = s.Key, Group = s });
-            }
+                    .Select(s => new { Category = s.Key, Group = s }).ToList();
+            //}
         }
 
         private void test()

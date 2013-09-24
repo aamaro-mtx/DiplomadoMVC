@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.WebForms", "PaganaSoft.WebForms\PaganaSoft.WebForms.csproj", "{6D9CBD0B-D751-463F-A373-81D0264E1FB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaganaSoft.Northwind.Data", "PaganaSoft.Northwind.Data\PaganaSoft.Northwind.Data.csproj", "{6DEF0E69-494B-4850-A318-D574E6FADCC4}"
@@ -31,6 +33,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PaganaSoft.WebPages", "http
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{3484A13B-3024-49A5-BD9A-8C341E8CE91D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{D4C3713B-008A-4C4B-87A0-DE8E2FAE5DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C3713B-008A-4C4B-87A0-DE8E2FAE5DC0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4C3713B-008A-4C4B-87A0-DE8E2FAE5DC0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3484A13B-3024-49A5-BD9A-8C341E8CE91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3484A13B-3024-49A5-BD9A-8C341E8CE91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3484A13B-3024-49A5-BD9A-8C341E8CE91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3484A13B-3024-49A5-BD9A-8C341E8CE91D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,18 +4,35 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Listado de Categorias de Northwind</h2>
-
-
-@foreach (var c in Model)
-{
-    <h2>@Html.DisplayFor(modelItem => c.CategoryName)</h2>
-    <p>
-        @foreach (var p in c.Products)
-        {
-            @p.ProductName
-            <br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background: #e1efbb url('img_tree.png') no-repeat right top;
+            margin-right: 200px;align-content:center;
         }
-    </p>
-}
+    </style>
+    <title>Listando a NorthWind Version MVC</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+</head>
+<body>
+    <h2>Listado de Categorias de Northwind</h2>
+
+
+    @foreach (var c in Model)
+    {
+        <h2>@Html.DisplayFor(modelItem => c.CategoryName)</h2>
+        <p>
+            @foreach (var p in c.Products)
+            {
+                @p.ProductName
+                <br />
+            }
+        </p>
+    }
+</body>
+</html>
+
+
 
